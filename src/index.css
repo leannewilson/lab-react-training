@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.idCard {
+  border: 2px black solid;
+  display: flex;
+  margin: 10px;
+}
+
+.idCard img {
+  margin: 2px;
+}
+
+.idCard li {
+  list-style: none;
+  text-align: left;
+}
+
+.greeting,
+.random {
+  border: 2px black solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.boxcolor {
+  border: 2px black solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.creditcard {
+  list-style: none;
+  display: flex;
+}
+
+.driverCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.driverCard img {
+  display: flex;
+}
